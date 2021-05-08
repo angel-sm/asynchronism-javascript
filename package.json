@@ -1,0 +1,20 @@
+{
+  "name": "asynchronism-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node ./src/callback/index.js",
+    "callback:challange": "node ./src/callback/challange.js",
+    "promises": "node ./src/promises/index.js",
+    "promises:challange": "node ./src/callback/challange.js",
+    "async": "node ./src/async_await/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
